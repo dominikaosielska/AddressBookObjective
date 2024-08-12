@@ -18,6 +18,11 @@ void UzytkownikMenadzer::rejestracjaUzytkownika()
     system("pause");
 }
 
+void UzytkownikMenadzer::wczytajUzytkownikowZPliku()
+{
+    uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
+}
+
 Uzytkownik UzytkownikMenadzer::podajDaneNowegoUzytkownika()
 {
     Uzytkownik uzytkownik;

@@ -15,13 +15,15 @@ class UzytkownikMenadzer
 
     vector <Uzytkownik> uzytkownicy;
 
+    PlikZUzytkownikami plikZUzytkownikami;
+
     string wczytajLinie();
     Uzytkownik podajDaneNowegoUzytkownika();
     int pobierzIdNowegoUzytkownika();
     bool czyIstniejeLogin(string login);
-    PlikZUzytkownikami plikZUzytkownikami;
 
 public:
     void rejestracjaUzytkownika();
     void wypiszWszystkichUzytkownikow();
+    void wczytajUzytkownikowZPliku();
 };
