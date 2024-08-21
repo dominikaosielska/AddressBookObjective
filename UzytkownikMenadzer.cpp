@@ -72,6 +72,13 @@ void UzytkownikMenadzer::zmianaHaslaZalogowanegoUzytkownika()
     plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
 
+void UzytkownikMenadzer::wylogowanieUzytkownika()
+{
+    idZalogowanegoUzytkownika = 0;
+    //adresaci.clear();
+    //musi nastapic wyzerowanie vectora i id we wszystkich klasach, w ktorych jest on uzywany
+}
+
 void UzytkownikMenadzer::wczytajUzytkownikowZPliku()
 {
     uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
