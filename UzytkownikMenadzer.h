@@ -1,3 +1,6 @@
+#ifndef UZYTKOWNIKMENADZER_H
+#define UZYTKOWNIKMENADZER_H
+
 #include <iostream>
 #include <vector>
 #include <windows.h>
@@ -6,6 +9,7 @@
 
 #include "Uzytkownik.h"
 #include "PlikZUzytkownikami.h"
+#include "Adresat.h"
 
 using namespace std;
 
@@ -31,3 +35,5 @@ public:
     void wypiszWszystkichUzytkownikow();
     void wczytajUzytkownikowZPliku();
 };
+
+#endif // UZYTKOWNIKMENADZER_H
