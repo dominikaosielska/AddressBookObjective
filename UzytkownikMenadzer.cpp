@@ -21,6 +21,8 @@ void UzytkownikMenadzer::rejestracjaUzytkownika()
 void UzytkownikMenadzer::logowanieUzytkownika()
 {
     Uzytkownik uzytkownik;
+    Adresat adresat;
+
     string login = "", haslo = "";
 
     cout << endl << "Podaj login: ";
@@ -41,6 +43,7 @@ void UzytkownikMenadzer::logowanieUzytkownika()
                     cout << endl << "Zalogowales sie." << endl << endl;
                     system("pause");
                     idZalogowanegoUzytkownika = itr -> pobierzId();
+                    adresat.ustawId(idZalogowanegoUzytkownika);
                     return;
                 }
             }
@@ -74,7 +77,10 @@ void UzytkownikMenadzer::zmianaHaslaZalogowanegoUzytkownika()
 
 void UzytkownikMenadzer::wylogowanieUzytkownika()
 {
+    Adresat adresat;
+
     idZalogowanegoUzytkownika = 0;
+    adresat.ustawId(idZalogowanegoUzytkownika);
     //adresaci.clear();
     //musi nastapic wyzerowanie vectora i id we wszystkich klasach, w ktorych jest on uzywany
 }
