@@ -24,7 +24,7 @@ class PlikZAdresatami
     int konwersjaStringNaInt(string liczba);
 
 public:
-    vector <Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
+    vector <Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika, int &idOstatniegoAdresata);
 
 };
 

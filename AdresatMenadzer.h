@@ -11,8 +11,8 @@ using namespace std;
 class AdresatMenadzer
 {
     vector <Adresat> adresaci;
-    int idZalogowanegoUzytkownika;
     PlikZAdresatami plikZAdresatami;
+    int idOstatniegoAdresata;
 
 public:
     void wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);

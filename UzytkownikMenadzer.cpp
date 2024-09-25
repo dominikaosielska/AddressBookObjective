@@ -43,7 +43,7 @@ void UzytkownikMenadzer::logowanieUzytkownika()
                     cout << endl << "Zalogowales sie." << endl << endl;
                     system("pause");
                     idZalogowanegoUzytkownika = itr -> pobierzId();
-                    adresat.ustawId(idZalogowanegoUzytkownika);
+                    adresat.ustawIdUzytkownika(idZalogowanegoUzytkownika);
                     return;
                 }
             }

@@ -1,0 +1,5 @@
+1|1|Dominika|Osielska|123 456 789|dominika@osielska.com|Osielsko 3|
+2|1|Jakub|Osielski|223 456 789|jakub@osielski.com|Osielsko 3|
+3|1|Pola|Osielska|323 456 789|pola@osielska.com|Osielsko 3|
+4|1|Malgorzata|Korzuchowska|423 456 789|malgorzata@korzuchowska.com|Korzuchowo 2|
+5|1|Konrad|Marek|523 456 789|konrad@marek.com|Markowo 3|
