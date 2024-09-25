@@ -12,7 +12,6 @@ class KsiazkaAdresowa
 {
     UzytkownikMenadzer uzytkownikMenadzer;
     AdresatMenadzer adresatMenadzer;
-    int idZalogowanegoUzytkownika;
 
 public:
     KsiazkaAdresowa(string nazwaPlikuZUzytkownikami) : uzytkownikMenadzer(nazwaPlikuZUzytkownikami) {
