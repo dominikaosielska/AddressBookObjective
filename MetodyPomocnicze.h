@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <sstream>
+#include <algorithm>
 
 #include "Uzytkownik.h"
 
@@ -12,6 +13,8 @@ class MetodyPomocnicze
 {
 public:
     static string konwerjsaIntNaString(int liczba);
+    static string zamienPierwszaLitereNaDuzaAPozostaleNaMale(string tekst);
+    static string wczytajLinie();
 };
 
 #endif // METODYPOMOCNICZE_H
