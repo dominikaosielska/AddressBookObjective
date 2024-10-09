@@ -3,4 +3,7 @@
 3|1|Pola|Osielska|323 456 789|pola@osielska.com|Osielsko 3|
 4|1|Malgorzata|Korzuchowska|423 456 789|malgorzata@korzuchowska.com|Korzuchowo 2|
 5|1|Konrad|Marek|523 456 789|konrad@marek.com|Markowo 3|
-6|0|Patryk|Swit|123456768|patryk@swit.com|Switowo 45|
+6|2|Patryk|Swit|123456768|patryk@swit.com|Switowo 45|
+7|2|Henryk|Falisty|123 345|henryk@faliksty.com|Falsiowosc 65|
+8|1|Papuga|Kola|123 212 123|papuga@kola.com|Papugowo 34|
+9|2|Kristina|Plol|090 898 789|kristina@plol.com|Plolpwo 98|
