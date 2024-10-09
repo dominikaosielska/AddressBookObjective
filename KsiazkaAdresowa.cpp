@@ -25,3 +25,8 @@ void KsiazkaAdresowa::wypiszWszystkichUzytkownikow()
 {
     uzytkownikMenadzer.wypiszWszystkichUzytkownikow();
 }
+
+void KsiazkaAdresowa::dodajAdresata()
+{
+    adresatMenadzer.dodajAdresata(uzytkownikMenadzer.idZalogowanegoUzytkownika);
+}

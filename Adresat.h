@@ -24,6 +24,14 @@ public:
     void ustawEmail(string nowyEmail);
     void ustawAdres(string nowyAdres);
 
+    int pobierzId();
+    int pobierzIdUzytkownika();
+    string pobierzImie();
+    string pobierzNazwisko();
+    string pobierzNumerTelefonu();
+    string pobierzEmail();
+    string pobierzAdres();
+
     //TO DO: dodac settery i gettery, sprawdzic czy zczytywanie adresatow z pliku dziala
 };
 
