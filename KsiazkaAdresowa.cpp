@@ -30,3 +30,8 @@ void KsiazkaAdresowa::dodajAdresata()
 {
     adresatMenadzer.dodajAdresata(uzytkownikMenadzer.idZalogowanegoUzytkownika);
 }
+
+void KsiazkaAdresowa::wyswietlWszystkichAdresatow()
+{
+    adresatMenadzer.wyswietlWszystkichAdresatow();
+}
