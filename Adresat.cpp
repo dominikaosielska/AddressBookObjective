@@ -2,13 +2,13 @@
 
 void Adresat::ustawId(int noweId)
 {
-    if (id >= 0)
+    if (noweId >= 0)
         id = noweId;
 }
 
 void Adresat::ustawIdUzytkownika(int idZalogowanegoUzytkownika)
 {
-    if (id >= 0)
+    if (idZalogowanegoUzytkownika >= 0)
         idUzytkownika = idZalogowanegoUzytkownika;
 }
 

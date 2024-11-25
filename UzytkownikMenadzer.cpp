@@ -18,10 +18,11 @@ void UzytkownikMenadzer::rejestracjaUzytkownika()
     system("pause");
 }
 
-void UzytkownikMenadzer::logowanieUzytkownika()
+int UzytkownikMenadzer::logowanieUzytkownika()
 {
     Uzytkownik uzytkownik;
     Adresat adresat;
+    int idZalogowanegoUzytkownika = 0;
 
     string login = "", haslo = "";
 
@@ -44,20 +45,21 @@ void UzytkownikMenadzer::logowanieUzytkownika()
                     system("pause");
                     idZalogowanegoUzytkownika = itr -> pobierzId();
                     adresat.ustawIdUzytkownika(idZalogowanegoUzytkownika);
-                    return;
+                    return idZalogowanegoUzytkownika;
                 }
             }
             cout << "Wprowadzono 3 razy bledne haslo." << endl;
             system("pause");
-            return;
+            return 0;
         }
         itr++;
     }
     cout << "Nie ma uzytkownika z takim loginem" << endl << endl;
     system("pause");
+    return 0;
 }
 
-void UzytkownikMenadzer::zmianaHaslaZalogowanegoUzytkownika()
+void UzytkownikMenadzer::zmianaHaslaZalogowanegoUzytkownika(int idZalogowanegoUzytkownika)
 {
     string noweHaslo = "";
     cout << "Podaj nowe haslo: ";
@@ -75,12 +77,15 @@ void UzytkownikMenadzer::zmianaHaslaZalogowanegoUzytkownika()
     plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
 }
 
-void UzytkownikMenadzer::wylogowanieUzytkownika()
+int UzytkownikMenadzer::wylogowanieUzytkownika()
 {
     Adresat adresat;
 
-    idZalogowanegoUzytkownika = 0;
+    int idZalogowanegoUzytkownika = 0;
     adresat.ustawId(idZalogowanegoUzytkownika);
+    adresatMenadzer.wyczyscWektor();
+
+    return idZalogowanegoUzytkownika;
     //adresaci.clear();
     //musi nastapic wyzerowanie vectora i id we wszystkich klasach, w ktorych jest on uzywany
 }

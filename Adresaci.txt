@@ -7,3 +7,6 @@
 7|2|Henryk|Falisty|123 345|henryk@faliksty.com|Falsiowosc 65|
 8|1|Papuga|Kola|123 212 123|papuga@kola.com|Papugowo 34|
 9|2|Kristina|Plol|090 898 789|kristina@plol.com|Plolpwo 98|
+10|2|Patryk|Niewiadomo|345 456 678|patryk@niewiadomo.com|Niwidomo 45|
+11|2|Kornel|Makuszynski|098 088 678|kornel@makuszynski.com|Korneliowo 47|
+12|1|Klaudia|Szewczyk|123 345 789|klaudia@szewczyk.com|Szewczykowo 34|

@@ -22,6 +22,7 @@ public:
     int dodajAdresata(int idZalogowanegoUzytkownika);
     void dopiszAdresataDoPliku(Adresat adresat);
     void wyswietlWszystkichAdresatow();
+    void wyczyscWektor();
 };
 
 #endif // ADRESATMENADZER_H
